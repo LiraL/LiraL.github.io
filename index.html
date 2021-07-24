@@ -5,20 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    
+    <!--Lato / Noto Sans JP-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!--Paleta de ores: rgb(255, 255, 255); rgb(0, 23, 31); rgb(0, 52, 89); rgb(0, 126, 167); rgb(0, 168, 232)  -->
+
+    <style>
+        body {
+            background-color: rgb(255,255,255);
+        }
+        h1 {
+            font-family: Lato, sans-serif; 
+            font-weight: 900;
+            font-size: 60px;
+        }
+        h1:local-link {
+            color: cyan;
+        }
+        .text-description {
+            font-family: Noto Sans JP, sans-serif;
+        }
+        .try:link {
+            color: #2fc18c;
+            text-decoration: none;
+            
+        }
+        .try:hover {
+            color: #036b52;
+            text-decoration: underline, #036b52;
+            
+            font-weight: bold;
+        }
+        .try:active {
+            color: #036b52;
+            
+        }
+
+    </style>
+
+
 </head>
     
 <body>
     <div>
-    <h1><a href="#lls"><strong>Lucas Lira da Silvas</strong></a></h1>
+    <h1><a href="#lls">Lucas Lira da Silva</a></h1>
     <img src="provisoria.png" alt="Lucas Lira de social" width="200px" id="lls">
     <h2><strong>Quem sou?</strong></h2>
-        <p>Brasileiro de 28 anos, natural do estado de São Paulo, morador da zona sul do estado e <strong><em>um filho 
+        <p class="text-description">Brasileiro de 28 anos, natural do estado de São Paulo, morador da zona sul do estado e <strong><em>um filho 
             orgulhoso de pais nordetinos</em></strong>, que apesar de nunca ter tido de a oportunidade de ir ao estado do 
             Pernambuco de onde os pais são, tem muito respeito, orgulho e profunda adimiração pela cultura e pelo povo. <br>
             Ama música, cinema, gastronomia, esportes e claro programação. <br>
             Em trasição de carreira já passou por duas grandes instituições financeiras, mas também já foi uber,
             pois <strong><em>saber se reeinventar e se adaptar é mais que uma habilidade, é uma necessidade.</em></strong> <br>  
-            E nesse contexto, encontra-se estudante da <strong>Trybe</strong> em tempo integral, <em>focado em aprender, se desenvolver 
+            E nesse contexto, encontra-se estudante da <a class="try" href="https://www.betrybe.com/" target="_blank">Trybe</a> em tempo integral, <em>focado em aprender, se desenvolver 
             para ser um dev. que contribua ativamente para o crescimento do senário de tecnologia.</em>
 
             <h3>Sugestão de blogs</h3>
